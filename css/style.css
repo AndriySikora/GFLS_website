@@ -202,7 +202,7 @@ ul.nav.navbar {
 }
 
 .menu-item-current .menu-link,.menu-link:hover {
-	color: #21b2a6;
+	color: #de1a2b;
 }
 
 .menu-item::before,
@@ -299,13 +299,13 @@ ul.nav.navbar {
 	padding:8em 0;
 }
 h3.title,h2.title{
-    font-size: 5em;
+    font-size: 4em;
     color: #a94442;
     margin-bottom: 1em;
     text-align: center;
 }
 .welcome-right {
-    padding: 2em 12em 0 3em;
+    padding: 2em 9em 0 3em;
 }
 .welcome img {
     width: 100%;
@@ -334,26 +334,26 @@ h3.title,h2.title{
 }
 .welcome h4 {
     font-size: 3em;
-    color: #21b2a6;
+    color: #de1a2b;
     margin: 1em 0 .3em;
     letter-spacing: 3px;
 }
 .welcome p{
 	font-size:1.1em;
-	color:#999;
+	color:#3c3a3a;
 	line-height:1.8em;
 }
 .welcome-bottom-left {
-    padding: 5em 8em;
+    padding: 5em 5em;
 }
 .welcome-bottom-right {
     padding-right: 7em;
-    margin-top: -6em;
+    margin-top: -5em;
 }
 /*--//welcome--*/
 /*--services--*/
 .services{
-	background: #21b2a6;
+	background: #a94442;
 	padding-bottom: 13em;
 }
 .services h3.title{
@@ -387,7 +387,6 @@ h3.title,h2.title{
     top: 39px;
     display: inline-block;
     padding: 10px;
-    background: #21B2A6;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -401,7 +400,7 @@ h3.title,h2.title{
     -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	-moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    left: 9%;
+    left: 20%;
     font-size: 2em;
 	color: #fff;
 }
@@ -419,8 +418,12 @@ h3.title,h2.title{
     top: -30px;
 	color: #fff;
 }
-.service p.text {
+.service ul.text {
     color: #fff;
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 1.2em;
+
 }
 .service .text {
     width: 66%;
@@ -437,7 +440,7 @@ h3.title,h2.title{
     text-align: center;
     top: 86%;
     position: absolute;
-    left: 10%;
+    left: 12%;
 }
 
 .service:hover .text {
@@ -1084,7 +1087,7 @@ h3.title,h2.title{
     padding: 5em 0;
 }
 h3.title,h2.title{
-    font-size: 4em;
+    font-size: 4
 }
 .welcome-right {
     padding: 0 9em 0 2em;
@@ -1095,7 +1098,7 @@ h3.title,h2.title{
     letter-spacing: 2px;
 }
 .welcome p {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .service .icon-holder {
     left: 34%;
