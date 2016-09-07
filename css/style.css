@@ -39,6 +39,14 @@ body a:hover{
 	-moz-background-size: cover;
 	background-color: rgba(0, 0, 0, 0.56);
 }
+.flag{
+    font-size: 1.5em;
+    font-family: "Font Awesome";
+    color: #fff;
+}
+.flag:hover{
+    color: #E64A19;
+}
 /*--banner-top--*/
 .banner-top {
      padding-top: 4em;
@@ -56,11 +64,11 @@ body a:hover{
 }
 .banner-top-right p {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: right;
     font-weight: 100;
     font-family: 'Font Awesome';
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 .banner-top-right p span.glyphicon{
     font-size: 1.2em;
@@ -783,7 +791,7 @@ h3.title,h2.title{
 }
 /*--//contact--*/
 /*--footer--*/
-.footer-copy {
+.footer-copy{
     background-color: #757575;
     padding: 1.2em 0;
     border-top: 2px solid #757575;
@@ -1703,5 +1711,7 @@ h3.title,h2.title{
 .footer h3 {
     font-size: 2em;
 }
-}
+.footer-copy
+{content:"<a href='gurulanguage.ho.ua'>Copyright © 2016. Guru foreign language school.</a>"; 
+}​
 /*--//responsive-design---*/
